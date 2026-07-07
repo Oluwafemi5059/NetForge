@@ -1,14 +1,19 @@
+# Virtual environments
 .venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
 venv/
-.eggs/
-.dist-info/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Python build/package files
+*.egg-info/
+*.egg
+dist/
 build/
 
 # VS Code
 .vscode/
+
+# Environment variables
+.env
